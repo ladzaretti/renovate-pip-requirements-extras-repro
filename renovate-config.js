@@ -1,7 +1,5 @@
 module.exports = {
-    branchPrefix: 'test-renovate/',
-    dryRun: true,
-    username: 'renovate-release',
+    dryRun: null,
     gitAuthor: 'Renovate Bot <bot@renovateapp.com>',
     onboarding: false,
     platform: 'github',
