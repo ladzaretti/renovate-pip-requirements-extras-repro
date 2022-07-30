@@ -5,4 +5,7 @@
     "group:recommended",
     "workarounds:all"
   ],
+
+  "enabledManagers": ["pip_requirements"]
+
 }

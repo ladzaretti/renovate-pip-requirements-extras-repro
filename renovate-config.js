@@ -7,23 +7,6 @@ module.exports = {
     platform: 'github',
     includeForks: true,
     repositories: [
-        'renovatebot/github-action',
-        'renovate-tests/cocoapods1',
-        'renovate-tests/gomod1',
-    ],
-    packageRules: [
-        {
-            description: 'lockFileMaintenance',
-            matchUpdateTypes: [
-                'pin',
-                'digest',
-                'patch',
-                'minor',
-                'major',
-                'lockFileMaintenance',
-            ],
-            dependencyDashboardApproval: false,
-            stabilityDays: 0,
-        },
+        'chludwig-haufe/renovate-pip-requirements-extras-repro'
     ],
 };
